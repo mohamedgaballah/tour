@@ -1,0 +1,168 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+        background: url("images/2.jpg");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: top;
+}
+
+header h1{
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 30px; 
+    margin: 20px;
+}
+
+header nav ul{
+    list-style-type: none;
+    margin-top: 5px;
+}
+
+header nav ul li{
+    float: left;
+    padding: 15px;  
+}
+
+header nav{
+    float: right;
+    margin-right: 10px;
+}
+
+.logo{
+    color:white;
+}
+
+.logo:link{
+    text-decoration: none; 
+}
+
+.logo:hover{
+    transition-duration: 1.5s;
+    font-size: 30px;
+}
+.bar{
+    color: white;
+}
+
+a:link{
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 25px aqua; 
+}
+
+a:hover{
+    text-decoration: underline;
+    color:black;
+    font-size: 18px;
+}
+
+.p1{
+      
+    float:left;
+    font-size: 100px;
+    color:black;
+    text-shadow: 2px 2px 40px white;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+
+.p2{
+    position: absolute;
+    top: 200px;
+    right: 700px;
+    font-size: 22px;
+    color:black;
+    text-shadow: 2px 2px 30px white;
+}
+
+.button{
+    float: right;
+    font-size: 20px;
+    color: black;
+    position: absolute;
+    right: 540px;
+    top: 250px;   
+    text-shadow: 2px 2px 30px aqua;
+    border: 2px solid cornflowerblue;
+}
+
+.button:hover{
+    background-color:cornflowerblue;
+    font-size: 25px;
+    border: 2px solid black;
+    text-decoration: none; 
+}
+
+.button:active{
+    background-color:azure;
+}
+
+input{
+    margin-top: 10px;
+    margin-bottom:10px;
+    height: 22px;
+    font-weight: bold;
+    width: 200px;
+    border: 2px solid black;
+}
+
+legend{
+    border: 1px solid ;
+    width: 110px;
+    padding-left: 20px;
+    border-color: cornflowerblue;
+}
+
+.color{
+    color: white;
+}
+
+fieldset{
+    position: absolute;
+    left: 10px;
+    top: 455px;
+    padding: 20px; 
+    width: 800px;
+    border-color: cornflowerblue;
+    height: 150px;  
+}
+
+.data{
+    float: right;
+    position:absolute;
+    right: 380px;
+    bottom: 25px;      
+}
+.data1{
+    float: right;
+    position:absolute;
+    right: 150px;
+    bottom: 25px;      
+}
+
+.submit{
+    float: right;
+    font-size: 18px;
+    background-color:white;
+    cursor:grab;
+    width: 100px;
+    margin-top: 0px;
+    border: 2px solid black;
+    
+}
+
+
+
+
+
+
+
+
+
+
